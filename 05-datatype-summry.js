@@ -20,7 +20,40 @@ let myOBJ ={
     age:21,
 }
 
-const myFunction =function(){
-    console.log("hellow world");
+// const myFunction =function(){
+//     console.log("hellow world");
+    
+// }
+
+
+//********************************************************* */
+
+// stack ( Primitive), Heap(Non-Primitive)
+
+let myYoutubename ="dpakkk"
+
+let anothername = myYoutubename
+
+anothername = "chai or code"
+console.log(myYoutubename);
+console.log(anothername);
+
+
+
+let userOne = { 
+    email: "user@gcom",
+    upi:"user@ypl"
+    
     
 }
+
+let userTow = userOne
+
+userTow.email="diapk@gcom"
+console.log(userOne.email);
+console.log(userTow.email);
+
+
+
+
+
