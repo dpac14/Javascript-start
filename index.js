@@ -17,6 +17,16 @@
 // console.log(obj);
 
 
-console.log(!"hellow");
-console.log(+false);
+// console.log(!"hellow");
+// console.log(+false);
+
+// console.log("A"-1);
+// console.log("dipak"+"100");
+
+console.log('2'+2+'2');
+
+console.log(arr.unshift(5));
+console.log(arr.shift(100));
+
+
 
