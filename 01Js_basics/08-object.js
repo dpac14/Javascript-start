@@ -27,8 +27,28 @@ const obj4 = { 5: "e", 6: "f" }
 // const obj3 = {obj1,obj2,obj4}
 // const obj3 = Object.assign(obj1,obj2,obj4)
 // const obj3 = Object.assign({},obj1,obj2,obj4)
-const obj3 = {...obj1,...obj2,...obj4}
-console.log(obj3);
+const obj3 = { ...obj1, ...obj2, ...obj4 }
+// console.log(obj3);
+
+const users= [
+    {
+        id: 1,
+        email:"d@gmail.com"
+    },{
+        id: 1,
+        email:"d@gmail.com"
+    },{
+        id: 1,
+        email:"d@gmail.com"
+    },
+]
+
+users[1].email
+console.log(instagramUser);
+console.log(Object.keys(instagramUser));
+console.log(Object.values(instagramUser));
+console.log(instagramUser.hasOwnProperty('isLoggedIn'));
+
 
 
 
