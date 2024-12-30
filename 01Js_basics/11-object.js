@@ -43,12 +43,22 @@ const users= [
     },
 ]
 
-users[1].email
-console.log(instagramUser);
-console.log(Object.keys(instagramUser));
-console.log(Object.values(instagramUser));
-console.log(instagramUser.hasOwnProperty('isLoggedIn'));
+// users[1].email
+// console.log(instagramUser);
+// console.log(Object.keys(instagramUser));
+// console.log(Object.values(instagramUser));
+// console.log(instagramUser.hasOwnProperty('isLoggedIn'));
 
 
+const course={
+coursename:"Js In Hindi",
+price:"999",
+courseInstructor:"dipak"
+}
+//  course.courseInstructor
 
+const {courseInstructor : instructor}= course
+
+// console.log(courseInstructor);
+console.log(instructor);
 
