@@ -7,7 +7,6 @@ let accountStates;
 
 // accountId =7 not allowed
 
-
 /*
 prefer not use var 
 because of issue block scope and functional scope

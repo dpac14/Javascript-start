@@ -44,12 +44,15 @@ anothername = "chai or code"
 
 
 let userOne = {
-    email: "user@gcom",
-    upi: "user@ypl",
+    username: "Nikhil",
+    upi: "nikhil@ypl",
 }
 
 let userTow = userOne
+ let userTree = userTow
 
-userTow.email = "diapk@gcom"
-// console.log(userOne.email);
-// console.log(userTow.email);
+ userTree.username = "Sahil"
+userTree.upi = "sahil@oxixi"
+console.log(userTree.username);
+console.log(userTree.upi);
+console.log(userOne);
