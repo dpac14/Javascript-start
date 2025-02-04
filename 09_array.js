@@ -1,5 +1,5 @@
-const marvel_heros =["Thor", "Ironman", "Spiderman" ]
-const dc_heros =["Superman", "Flash", "Batman" ]
+const marvel_heros = ["Thor", "Ironman", "Spiderman"]
+const dc_heros = ["Superman", "Flash", "Batman"]
 
 // marvel_heros.push(dc_heros)node 09_array.js
 
@@ -22,5 +22,5 @@ const dc_heros =["Superman", "Flash", "Batman" ]
 
 console.log(Array.isArray("Dipak"));
 console.log(Array.from("Dipak"));
-console.log(Array.from({name:"Dipak"}));
+console.log(Array.from({ name: "Dipak" }));
 
