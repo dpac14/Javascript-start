@@ -10,7 +10,7 @@ const id = Symbol("123")
 const anotherId = Symbol("123")
 // console.log(id === anotherId);
 
- const bigNumber = 99990726458930n
+const bigNumber = 99990726458930n
 
 //Reference (Non Primitive)
 // Array, Objects, Functions
@@ -25,7 +25,7 @@ const myFunction = function () {
     console.log("hellow world");
 
 }
-console.log( typeof bigNumber);
+console.log(typeof bigNumber);
 
 
 
@@ -49,10 +49,10 @@ let userOne = {
 }
 
 let userTow = userOne
- let userTree = userTow
+let userTree = userTow
 
- userTree.username = "Sahil"
+userTree.username = "Sahil"
 userTree.upi = "sahil@oxixi"
-console.log(userTree.username);
-console.log(userTree.upi);
+// console.log(userTree.username);
+// console.log(userTree.upi);
 console.log(userOne);
