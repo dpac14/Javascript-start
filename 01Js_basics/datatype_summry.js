@@ -25,7 +25,7 @@ const myFunction = function () {
     console.log("hellow world");
 
 }
-console.log(typeof bigNumber);
+console.log(typeof myFunction);
 
 
 
@@ -55,4 +55,4 @@ userTree.username = "Sahil"
 userTree.upi = "sahil@oxixi"
 // console.log(userTree.username);
 // console.log(userTree.upi);
-console.log(userOne);
+// console.log(userOne);
