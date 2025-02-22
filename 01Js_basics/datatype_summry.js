@@ -31,9 +31,10 @@ console.log(typeof myFunction);
 
 //**********************************************************//
 
-// Stack (Primitive), Heap (Non-Primitive)
+// Stack (Primitive)  Heap (Non-Primitive)
 
 let myYoutubename = "dpakkk"
+
 
 let anothername = myYoutubename
 
@@ -52,7 +53,7 @@ let userTow = userOne
 let userTree = userTow
 
 userTree.username = "Sahil"
-userTree.upi = "sahil@oxixi"
+ userTree.upi = "sahil@oxixi"
 // console.log(userTree.username);
 // console.log(userTree.upi);
-// console.log(userOne);
+console.log(userOne);

@@ -2,10 +2,10 @@ const name="dipk"
 const repoCount = 50
 
 // console.log(name+repoCount+" Value");
-console.log(`Heloow my name is ${name } and my repocount is ${repoCount}`);
-const gameName = new String('hitesh-dc-com')
+// console.log(`Heloow my name is ${name }  and my repocount is ${repoCount}`);
 
-// console.log( gameName[0])
+const gameName = new String('hitesh')
+// console.log( gameName)
 // console.log( gameName.__proto__)
 
 // console.log(gameName.length);
@@ -13,17 +13,17 @@ const gameName = new String('hitesh-dc-com')
 // console.log(gameName.charAt(2));
 // console.log(gameName.indexOf(`t`));
 
-// const newString = gameName.substring(0,4)
-// console.log(newString);
+const newString = gameName.substring(0, 4)
+console.log(newString);
 
-// const anotherSring = gameName.slice(-8,4)
-// console.log(anotherSring);
+const anotherSring = gameName.slice(-5, 4)
+console.log(anotherSring);
 
 
-const newStringOne="   dipak   "
+// const newStringOne="  dipak   "
 
-console.log(newStringOne);
-console.log(newStringOne.trim());
+// console.log(newStringOne);
+// console.log(newStringOne.trim());
 
 
 // const url ="https//:dipak.com/dipak20%chute"
@@ -32,4 +32,4 @@ console.log(newStringOne.trim());
 // console.log(url.includes("ritesh"));
 // console.log(url.includes("chute"));
 
-// console.log(gameName.split('-'));
+console.log(gameName.small());
