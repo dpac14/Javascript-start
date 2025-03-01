@@ -31,15 +31,15 @@ const myArr2 = new Array(1, 2, 3, 4)
 
 //slice & splice
 
-console.log("A ", myArr);
+console.log("A", myArr);
 
 const mynew1 = myArr.slice(1, 3)
 
 console.log(mynew1);
-console.log("B ", myArr);
+console.log("B", myArr);
 
 const mynew2 = myArr.splice(1, 3)
-console.log("C ", myArr);
+console.log("C", myArr);
 console.log(mynew2);
 
 

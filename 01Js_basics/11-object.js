@@ -53,7 +53,7 @@ const users= [
 const course={
 coursename:"Js In Hindi",
 price:"999",
-courseInstructor:"dipak"
+courseInstructor:"Virat"
 }
 //  course.courseInstructor
 
