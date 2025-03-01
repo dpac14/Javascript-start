@@ -9,10 +9,10 @@
 
 const obj = {
     a: 1,
-    "b": 2,
-    "c": 3,
+    b: 2,
+    c: 3,
     "a": 6,
-    d: 7,
+    b: 7,
 }
 console.log(obj);
 
